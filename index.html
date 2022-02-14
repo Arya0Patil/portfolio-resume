@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+   <link rel="stylesheet" href="./stylesheet/timeline.css">
+    <link rel="stylesheet" href="./stylesheet/style.css">
+</head>
+<body>
+    <main>
+        <section class="heading">
+            <div class="hText">
+                 <h3>HELLO</h3>
+                 <h1>I AM ARYA PATIL</h1>      
+                 <button id="connect-btn" onClick="document.getElementById('link-sec').scrollIntoView();"  >Let's Connect</button>      
+            </div>
+            <div>
+                <img id="home-img" src="./assets/images/home-right.png" alt="">
+            </div>
+        </section>
+        
+        <section class="dropdown">
+            <div class="dropdown-div">
+                <h3 id="sbtn" onclick="skills()">Skills</h3>
+                <!-- <i class="fa-solid fa-arrow-down-long"></i> -->
+            </div>
+            <div class="dropdown-div">
+                <h3 id="ebtn" onclick="education()">Education</h3>
+                <!-- <i class="fa-solid fa-angle-down"></i> -->
+            </div>
+            <div class="dropdown-div">
+                <h3 id="hbtn" onclick="hobbies()">Hobbies</h3>
+                <!-- <i class="fa-solid fa-angle-down"></i> -->
+            </div>
+            
+        </section>
+
+        <section class="toggle">
+            <div id="skills">
+              
+                
+                <h1>App Development</h1>
+                <h1>Web Development</h1>
+                <h1>Java </h1>
+            </div>
+            <div id="hobbies" >
+                <h1>Reading</h1>
+                <h1>Chess</h1>
+                <h1>Synth Playing</h1>
+            </div>
+        </section>
+
+        <section id="education" class="education">
+            
+            
+            <div class="timeline">
+               
+                <div class="container left">
+                  <div class="content">
+                    <h2>Computer Engg.</h2>
+                    <p>Sinhgad Institue Of Technology</p>
+                    <p>2019-2023</p>
+                  </div>
+                </div>
+                <div class="container right">
+                  <div class="content">
+                    <h2>HSC(12th)</h2>
+                    <p>School Of Scholars</p>
+                    <p>2019</p>
+                  </div>
+                </div>
+                <div class="container left">
+                    <div class="content">
+                      <h2>SSC (10th)</h2>
+                      <p>M.S.M English School</p>
+                      <p>2017</p>
+                    </div>
+                  </div>
+              </div>
+        </section>
+
+        <section class="projects">
+            <div id="project-h"><h1>Projects</h1></div>
+            <div class="project-list">
+                <img src="https://user-images.githubusercontent.com/62802742/138667036-063c01b8-315a-438c-b7a6-72af4df3e6c7.jpg" alt="">
+                
+                <div>
+                    <a target="_blank" href="https://github.com/Arya0Patil/Food_Delivery"><h1>Food Delivery App</h1></a>
+                <ul>
+                    <li>State management with Provider</li>
+                    <li>Firebase for authentication</li>
+                    <li>Firebase 
+                        Firestore as backend</li>
+                    <li>Google maps for Location </li>
+                </ul>
+                </div>
+                
+            </div>
+            <div id="tile2" class="project-list">
+                <img src="https://github.com/Arya0Patil/Crypto-App-UI/raw/master/assets/Crypto%20App.png" alt="">
+                
+                <div>
+                    <a target="_blank" href="https://github.com/Arya0Patil/Crypto-App-UI"><h1>UI Challenge</h1></a>
+                <ul>
+                    <li>Crypto App UI</li>
+                    <li>Landing Page UI</li>
+                    <li>Fitness App UI</li>
+                   
+                </ul>
+                </div>
+                
+            </div>
+        </section>
+
+        <section class="contact"> 
+            <img src="./assets/images/about-us.png" alt="image">
+            <!-- <div></div> -->
+            <div id="link-sec" class="links">
+                <h1>Contact Me</h1>
+                <div>
+                    <i class="fa-brands fa-github"></i>
+                    <a target="_blank" href="https://github.com/Arya0Patil">GitHub: Arya0Patil</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-envelope"></i>
+                    <a class="linkE" href="mailto:arya07267@gmail.com">Email: arya07267@gmail.com</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-linkedin"></i>
+                    <a target="_blank" href="https://www.linkedin.com/in/arya-patil-101/">LinkedIn</a>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+   
+
+</body>
+<script src="https://kit.fontawesome.com/62597148dc.js" crossorigin="anonymous"></script>
+<script src="./index.js"></script>
+</html>
